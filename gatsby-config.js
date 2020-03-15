@@ -5,6 +5,7 @@ module.exports = {
     description: `Romain Campech is a software engineer based in London, UK with extensive experience in cloud infrastructures and full-stack technologies.`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
