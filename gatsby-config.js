@@ -28,6 +28,14 @@ module.exports = {
         icon: `src/images/favicon.png`,
       },
     },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: ["Josefin Sans:200,400,600"],
+        },
+      },
+    },
     // `gatsby-plugin-offline`,
   ],
 }
