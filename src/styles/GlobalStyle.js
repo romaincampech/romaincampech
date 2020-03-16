@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components"
 import mixins from "./mixins"
 import theme from "./theme"
 
-const { colors, fontSizes } = theme
+const { colors, fonts, fontSizes } = theme
 
 const GlobalStyle = createGlobalStyle`
   html {
@@ -23,12 +23,12 @@ const GlobalStyle = createGlobalStyle`
     min-height: 100%;
     width: 100%;
     overflow-x: hidden; 
-    font-family: Josefin Sans, sans-serif;
+    font-family: ${fonts.Josefin};
+    /* font-family: Josefin Sans, sans-serif; */
     font-size: ${fontSizes.m};   
   }
 
   h1, h2, h3, h4, h5, h6, p {
-    font-weight: 600;
     color: ${colors.lightestSlate};
     margin: 0;
   } 

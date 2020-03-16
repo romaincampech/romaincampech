@@ -29,11 +29,10 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-web-font-loader",
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        google: {
-          families: ["Josefin Sans:200,400,600"],
-        },
+        fonts: [`Josefin Sans\:200,400,600`],
+        display: "block",
       },
     },
     // `gatsby-plugin-offline`,

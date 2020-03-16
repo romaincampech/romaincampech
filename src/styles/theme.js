@@ -3,6 +3,9 @@ const theme = {
     navy: "#020019",
     white: "#ffffff",
   },
+  fonts: {
+    Josefin: "Josefin Sans, sans-serif",
+  },
   fontSizes: {
     m: "20px",
   },
