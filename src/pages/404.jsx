@@ -2,11 +2,11 @@ import React from "react"
 import SEO from "../components/SEO"
 import Layout from "../components/Layout"
 
-const Home = () => (
+const NotFound = () => (
   <Layout>
-    <SEO />
-    <h1>Romain Campech</h1>
+    <SEO title="404" />
+    <h1>Not Found</h1>
   </Layout>
 )
 
-export default Home
+export default NotFound
